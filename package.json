@@ -26,7 +26,24 @@
     "react forms"
   ],
   "sideEffects": false,
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "require": {
+      "types": "./dist/index.d.cts",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
+    "build": "tsup",
     "lint": "eslint ."
   },
   "peerDependencies": {
@@ -45,6 +62,7 @@
     "globals": "^15.13.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   }
 }
