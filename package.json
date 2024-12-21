@@ -1,0 +1,40 @@
+{
+  "name": "react-pova",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "The most declarative, extensible, and easy-to-use form validation framework for React.",
+  "author": {
+    "name": "David Xie",
+    "email": "hk997@live.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/davidxhk/react-pova",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidxhk/react-pova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidxhk/react-pova/issues"
+  },
+  "keywords": [
+    "validation",
+    "validation library",
+    "validation framework",
+    "input validation",
+    "form validation",
+    "react",
+    "react forms"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=19",
+    "react-dom": ">=19"
+  },
+  "dependencies": {
+    "pova": "^1.0.0-beta.23"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
