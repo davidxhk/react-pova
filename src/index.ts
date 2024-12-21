@@ -1,4 +1,4 @@
-export { FormValidationContext } from "./contexts"
+export { FormValidationContext, ValidationResultContext } from "./contexts"
 export { FormValidationProvider } from "./form-validation-provider"
 export { useFormValidationContext } from "./hooks"
 export type { FormValidation, Plugin, PluginFactoryProps } from "./types"
