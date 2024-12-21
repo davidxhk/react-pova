@@ -1,3 +1,4 @@
+export type * from "./default-plugin"
 export type * from "./form-validation"
 export type * from "./json-value"
 export type * from "./plugin"
