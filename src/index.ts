@@ -1,5 +1,5 @@
 export { FormValidationContext, ValidationResultContext } from "./contexts"
 export { FormValidationProvider } from "./form-validation-provider"
-export { useFormValidationContext } from "./hooks"
+export { useFormValidationContext, useValidationResultContext } from "./hooks"
 export type { FormValidation, Plugin, PluginFactoryProps } from "./types"
 export { ValidationFixture } from "./validation-fixture"
